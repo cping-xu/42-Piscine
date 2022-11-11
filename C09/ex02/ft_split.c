@@ -6,7 +6,7 @@
 /*   By: cping-xu <cping-xu@student.42kl.edu.my>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/07 19:14:37 by cping-xu          #+#    #+#             */
-/*   Updated: 2022/10/06 16:43:40 by cping-xu         ###   ########.fr       */
+/*   Updated: 2022/11/11 11:29:20 by cping-xu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -97,7 +97,7 @@ char	**ft_split(char *str, char *charset)
 	return (strings);
 }
 
-#include <stdio.h>
+/*#include <stdio.h>
 char	**ft_split(char *str, char *charset);
 
 int	main(int argc, char **argv)
@@ -113,4 +113,4 @@ int	main(int argc, char **argv)
 		printf("%s\n",p[i]);
 	}
 	return (0);
-}
+}*/
